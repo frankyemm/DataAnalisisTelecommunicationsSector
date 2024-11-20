@@ -6,20 +6,6 @@ Este proyecto tiene como objetivo analizar el comportamiento del sector de telec
 - Exploración de datos (EDA) y visualización interactiva.
 - Creación de KPIs clave para evaluar el crecimiento y las oportunidades en el mercado.
 - Generación de insights basados en datos para orientar decisiones estratégicas.
- Data_cleaned/
-        Datasets/
-        EDA_Analysis_Telecommunications_Sector.ipynb
-        Internet.xlsx
-        KPIs.py
-        LICENSE
-        README.md
-        __pycache__/
-        aaaa.pbix
-        graficos.py
-        inflacion.py
-        requirements.txt
-        src/
-        venv/
 
 ---
 
@@ -91,6 +77,13 @@ Este proyecto tiene como objetivo analizar el comportamiento del sector de telec
 ---
 ## Resultados y Análisis de KPIs
 ### **KPI 1: Penetración de accesos por hogares**
+- **Fórmula**:  
+
+  $KPI = \left(\frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}}\right) \times 100$
+
+- **Variables necesarias**:
+  - *Acceso actual*: Accesos por cada 100 hogares en el trimestre actual.
+  - *Nuevo acceso*: Proyección del número de accesos por cada 100 hogares tras el incremento del 2%.
 - **Descripción**: Evalúa el crecimiento porcentual de accesos en hogares durante los trimestres 3 y 4 del 2023.
 - **Resultados**:
   - Crecimiento positivo en provincias como Buenos Aires y Córdoba.
@@ -99,6 +92,13 @@ Este proyecto tiene como objetivo analizar el comportamiento del sector de telec
   - Invertir en áreas rurales para reducir la brecha digital.
   - Promover políticas públicas que incentiven el acceso.
 ### **KPI 2: Velocidad promedio de internet**
+- **Fórmula**:  
+
+  $KPI = \left(\frac{\text{Nueva velocidad promedio} - \text{Velocidad promedio actual}}{\text{Velocidad promedio actual}}\right) \times 100$
+
+- **Variables necesarias**:
+  - *Velocidad promedio actual*: Media de las velocidades actuales por provincia (Mbps).
+  - *Nueva velocidad promedio*: Proyección de la velocidad promedio tras el incremento del 2%.
 - **Descripción**: Analiza el incremento en Mbps promedio en las provincias entre los trimestres 3 y 4 del 2023.
 - **Resultados**:
   - Capital Federal lidera con velocidades superiores a 180 Mbps.
@@ -107,6 +107,13 @@ Este proyecto tiene como objetivo analizar el comportamiento del sector de telec
   - Expandir la infraestructura de fibra óptica en regiones con velocidades bajas.
   - Incentivar a las ISPs a mantener estándares elevados de calidad.
 ### **KPI 3: Cobertura de fibra óptica**
+- **Fórmula**:
+
+  $KPI = \left(\frac{\text{Total Accesos proyectados} - \text{Total Accesos actuales}}{\text{Total Accesos actuales}}\right) \times 100$
+  
+- **Variables necesarias**:
+  - *Accesos actuales*: Total de Accesos por tecnologías (Fibra Óptica) en el trimestre actual.
+  - *Ingresos proyectados*: Proyección de Accesos por tecnologías (Fibra Óptica) con un incremento del 1.5%.
 - **Descripción**: Mide el crecimiento de accesos por fibra óptica en los trimestres 3 y 4 del 2023.
 - **Resultados**:
   - Incrementos significativos en provincias como Mendoza y Córdoba.
