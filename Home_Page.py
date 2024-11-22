@@ -1,6 +1,6 @@
 import streamlit as st
-from visualizacion_datos import render_visualizacion_datos
-from A_KPIs import render_kpi_analysis
+from SFunction.visualizacion_datos import render_visualizacion_datos
+from SFunction.A_KPIs import render_kpi_analysis
 
 def main():
     # Inicializar valores en el estado de la sesión
